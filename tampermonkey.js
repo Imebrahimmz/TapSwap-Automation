@@ -114,7 +114,7 @@
       soal = soal.replace("+", "").replace("`", "");
       console.log("Shahan Question : ---" + soal + "---");
 
-      fetch("https://raw.githubusercontent.com/Ebrahim82/TapUp/refs/heads/main/list.json")
+      fetch("https://raw.githubusercontent.com/Imebrahimmz/TapSwap-Automation/refs/heads/main/list.json")
         .then(response => response.text())
         .then(text => {
           storedText = text;
